@@ -7,5 +7,5 @@ class Content():
         return self._content
 
     @Output_type.to_json_decorator
-    def export_content_decorater(self):
+    def export_content_decorator(self):
         return self.export_content()
