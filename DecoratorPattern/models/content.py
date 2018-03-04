@@ -8,4 +8,4 @@ class Content():
 
     @Output_type.to_json_decorator
     def export_content_decorater(self):
-        return self._content
+        return self.export_content()
