@@ -7,7 +7,7 @@ class iPhone(Phone):
         
     def Unlock(self):
         #faceID unlock
-        print("Phone is unlocked by face")
+        print(self.Name+" is unlocked by face")
 
     @property
     def Name(self):

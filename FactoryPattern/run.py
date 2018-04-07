@@ -4,7 +4,7 @@ from models import PhoneFactory
 
 #normal implementation, the caller of the function connects to all concreate classes.
 iphone = iPhone("MyPhone")
-samsung = iPhone("MyPhone")
+samsung = SamsungPhone("MyPhone")
 iphone.Unlock()
 samsung.Unlock()
 
