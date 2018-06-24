@@ -1,5 +1,3 @@
-
-
 class Cache():
     _instance = None
     content = ""
@@ -11,9 +9,10 @@ class Cache():
         return Cache._instance
         
     def Add(self,content):
+        #Assign Value to the content
         self.content = content
         print(self.content + " is added to the cache")
     
     def Get(self):
-        #faceID unlock
+        #Print the content
         print("The content is: "+self.content)
