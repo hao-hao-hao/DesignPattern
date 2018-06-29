@@ -7,4 +7,3 @@ class Iterator():
     
     def Next(self):
         raise NotImplementedError
-        
