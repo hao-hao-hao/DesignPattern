@@ -14,7 +14,6 @@ nodeA.Add(nodeA1)
 nodeA1.Add(nodeA1a)
 nodeA1.Add(nodeA1b)
 
-
 #RIGHT NODES
 nodeA.Add(nodeA2)
 nodeA2.Add(nodeA2a)
