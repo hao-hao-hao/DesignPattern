@@ -14,4 +14,4 @@ except Exception as ex:
 #add adapter to connect tv and remote
 tv_adapter = TVAdapter(tv)
 control = RemoteControl(tv_adapter)
-control.SwitchOnTV() #output ABC TV is on.
+control.SwitchOnTV() #output ABC TV is on because of the adapter
